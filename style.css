@@ -1,0 +1,51 @@
+/* Apply font and base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sometype Mono', monospace;
+  background-color: #000;
+  color: #0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Center screen block */
+.screen {
+  max-width: 800px;
+  padding: 20px;
+}
+
+/* Optional spacing and styling */
+header img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+header h1, header p,
+.status h2, .status p,
+.loglinks h3, .loglinks ul,
+footer p {
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: #0ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.warning {
+  color: #f00;
+  font-weight: bold;
+}
